@@ -2,7 +2,12 @@ body{
     background-color:goldenrod
 }
 
+html, body{
+    margin: 0;
+    padding: 0;
+}
 header{
     text-align: center;
     background-color: rgb(231, 84, 84);
+    padding: 20px
 }
