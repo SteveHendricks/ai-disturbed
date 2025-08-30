@@ -15,14 +15,14 @@ html, body{
 }
 header{
     text-align: center;
-    background-color: rgb(248, 119, 6);
+    background-color: rgb(180, 6, 248);
     padding: 20px;
 }
 
 header img{
     width: 250px;
     height: 400px;
-    border: 20px solid rgb(17, 17, 106);
+    border: 20px solid rgb(106, 100, 17);
     border-radius: 50%;
 }
 
