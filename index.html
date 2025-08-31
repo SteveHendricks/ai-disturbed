@@ -16,7 +16,33 @@
 
     h2 + p {
         margin-top: 0;
+    }
 
+    /* image spacing between image and caption */
+     img {
+      display: block;
+      margin-bottom: 0.25rem;
+    }
+
+    /* Caption styling */
+    .caption {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+      font-style: italic;
+    }
+
+    /* Reduce space before h2s following a caption or a list */
+    p.caption + h2,
+    ol + h2,
+    ul + h2 {
+      margin-top: 1rem;
+    }
+
+    /* Reduce top margin for lists under h2s */
+    ol,
+    ul {
+      margin-top: 0;
     }
     
   </style>
@@ -40,7 +66,7 @@
         enlighten you and maybe you then can make a difference in the world. 
         Because you're human and he is just a robot.</p>
         <img src="./img/A.I. Squeezed.jpg" alt="A.I. Drinking">
-        <p class=">caption">A.I. holds up a mug of his favorite beverage.</p>
+        <p class="caption">A.I. holds up a mug of his favorite beverage.</p>
         <h2>A.I.&rsquo;s Characteristics</h2>
         <ol>
             <li>A.I. is short for Arty Isaac</li>
