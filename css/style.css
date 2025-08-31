@@ -15,24 +15,33 @@ body {
     padding: 0;
 }
 
-p,
-ul,
-ol {
+p, ul, ol {
     font-size: 20px;
     line-height: 30px;
 }
 
-ul,
-ol {
+ul, ol {
     padding: 0;
     list-style-position: inside;
 }
 
-a {
+a{
     color: rgb(rgb(255, 115, 0), green, blue);
 
 }
 
+a:hover{
+    color:rgb(74, 74, 229);
+}
+
+a:active{
+    color:rgb(133, 35, 226);
+}
+
+a:visited{
+    color:rgb(25, 25, 188);
+
+}
 
 p.caption {
     font-size: 16px;
