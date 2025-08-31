@@ -35,7 +35,7 @@ header img{
     display: block;
     margin: 0.25rem auto 0.25rem auto; /* top, right/left, bottom */
     width: 290px;
-    height: 475px;
+    height: 500px;
     border: 20px solid rgb(128, 6, 155);
     border-radius: 50%;
 }
