@@ -95,7 +95,10 @@ main img {
 }
 
 footer{
+    background-color: rgb(180, 6, 248);
+}
+
+footer .content{
     width: 800px;
     margin: 0 auto;
-    background-color: rgb(180, 6, 248);
 }
