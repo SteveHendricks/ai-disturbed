@@ -10,39 +10,43 @@
 
 <head>
    <style>
+    /* Header spacing */
     h2 {
-        margin-bottom: 0.5rem;
+        margin-top: 2rem; /* more space before each section 
+        margin-bottom: 0.5rem; /* tighter space agter the header */
     }
 
+    /* Tighter paragraph spacing under h2 */
     h2 + p {
         margin-top: 0;
     }
 
-    /* image spacing between image and caption */
+    /* image spacing */
      img {
       display: block;
-      margin-bottom: 0.25rem;
-    }
+      margin-bottom: 0.25rem; /* tight space under image */  
+     }
 
-    /* Caption styling */
+    /* Caption under image */
     .caption {
       margin-top: 0;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.75rem; /* space  under caption before h2 */
       font-size: 0.9rem;
       font-style: italic;
     }
 
-    /* Reduce space before h2s following a caption or a list */
-    p.caption + h2,
+    /* More space before a new section heading */
+    .caption + h2,
     ol + h2,
     ul + h2 {
-      margin-top: 1rem;
+      margin-top: 2rem;
     }
 
-    /* Reduce top margin for lists under h2s */
+    /* List styling */
     ol,
     ul {
       margin-top: 0;
+      margin-botttom: 1rem; /* spacing under the list */
     }
     
   </style>
