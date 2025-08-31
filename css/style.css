@@ -18,6 +18,13 @@ p, ul, ol{
     line-height: 30px
 }
 
+p.caption{
+    font-size: 16px;
+    color:blue;
+    font-style: oblique;
+    margin: 0;
+}
+
 header{
     text-align: center;
     background-color: rgb(180, 6, 248);
