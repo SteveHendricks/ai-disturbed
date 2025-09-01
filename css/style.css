@@ -35,7 +35,7 @@ ul, ol {
 
 /* Link colors*/
 a{
-    color:rgba(232, 60, 2, 0.978);;
+    color:rgb(232, 60, 2, 0.978);
 }
 
 a:hover{
