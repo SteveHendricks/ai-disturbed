@@ -1,20 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
 
+/* Reset all elements to use border-box sizing */
+
+* {
+    box-sizing: border-box;
+}
 
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    line-height: 24px
-}
-
-
-html,
-body {
+    line-height: 24px;
     margin: 0;
     padding: 0;
 }
 
+
+html{
+  margin: 0;
+  padding: 0;
+}
+
+/* Paragraph and list styling*/
 p, ul, ol {
     font-size: 20px;
     line-height: 30px;
@@ -23,11 +30,12 @@ p, ul, ol {
 ul, ol {
     padding: 0;
     list-style-position: inside;
+    margin-bottom: 1rem;
 }
 
+/* Link colors*/
 a{
-    color: rgb(rgb(255, 115, 0), green, blue);
-
+    color:rgb(255, 115, 0);;
 }
 
 a:hover{
@@ -43,6 +51,7 @@ a:visited{
 
 }
 
+/* Caption under images */
 p.caption {
     font-size: 16px;
     color: rgb(34, 19, 1);
@@ -50,16 +59,17 @@ p.caption {
     margin: 0;
 }
 
+/* Header styling */
 header {
+    width: 100%;
     text-align: center;
     background-color: rgb(180, 6, 248);
-    padding: 20px;
+    padding: 20px 0;
 }
 
 header img {
     display: block;
-    margin: 0.25rem auto 0.25rem auto;
-    /* top, right/left, bottom */
+    margin: 0.25rem auto;
     width: 290px;
     height: 500px;
     border: 20px solid rgb(128, 6, 155);
@@ -75,26 +85,51 @@ header h1 {
     color: black
 }
 
+/* Section headers */
 h2 {
     font-family: "Jersey 20", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
-    margin: 20px 0;
+    margin: 2rem 0 0.5rem 0;
     color: black
 }
 
+/* Tighter paragraph spacing after h2*/
+h2 + p{
+    margin-top: 0;
+}
+ /* Images in main content*/
+main img{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 0.25rem;
+}
 
+/* Caption spacing */
+.caption {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+/* Spacing before a new section */
+.caption + h2,
+ol + h2,
+ul + h2 {
+    margin-top: 2rem;
+}
+
+/* Layout for main content*/
 main {
     width: 800px;
     margin: 0 auto;
 }
 
-main img {
-    max-width: 100%;
-}
-
-footer{
+/* Footer styles */
+footer {
+    width: 100%;
     background-color: rgb(180, 6, 248);
     padding: 10px;
 }
@@ -102,10 +137,12 @@ footer{
 footer .content{
     width: 800px;
     margin: 0 auto;
+}
 
 footer a{
     color: white;
 }
+
 footer a:hover{
     color: white;
-}}
+}
