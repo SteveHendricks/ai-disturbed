@@ -131,7 +131,7 @@ main {
 /* Footer styles */
 footer {
     width: 100%;
-    background-color: rgb(180, 6, 248);
+    background: linear-gradient(to bottom,rgb(180, 6, 248), rgb(230, 3, 181)); /*purple to pink */
     padding: 10px;
 }
 
