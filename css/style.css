@@ -63,7 +63,7 @@ p.caption {
 header {
     width: 100%;
     text-align: center;
-    background-color: linear-gradient(to right,rgb(180, 6, 248), rgb(255, 94, 220)); /*purple to pink */
+    background: linear-gradient(to right,rgb(180, 6, 248), rgb(255, 94, 220)); /*purple to pink */
     padding: 20px 0;
 }
 
