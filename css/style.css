@@ -80,7 +80,7 @@ header img {
     width: 365px; /* larger width */
     height: auto; /* maintain aspect ratio */
     max-width: 90vw; /* responsive on small screens */
-    border: 20px solid rgb(244, 105, 5);
+    border: 20px solid rgb(148, 97, 3);
     border-radius: 50%;
 }
 
