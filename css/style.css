@@ -140,7 +140,7 @@ footer {
     width: 100%;
     background-image: url('../img/blue-backenhanced.jpg');
     /*background: linear-gradient(to bottom,rgb(180, 6, 248), rgb(230, 3, 181));*/ /*purple to pink */
-    padding: 10px 0;
+    padding: 10px;
 }
 
 footer .content{
