@@ -63,7 +63,7 @@ p.caption {
 header {
     width: 100%;
     text-align: center;
-    background-image: url('../img/blue-backenhanced.jpg');
+    background-image: url('../img/blue-backenhancedfilter.jpg');
     /*background: linear-gradient(to bottom,rgb(180, 6, 248), rgb(230, 3, 181));*/ /*purple to pink */
     background-size: cover;
     background-position: center;
@@ -138,24 +138,29 @@ main {
 /* Footer styles */
 footer {
     width: 100%;
-    background-image: url('../img/blue-backenhanced.jpg');
-    /*background: linear-gradient(to bottom,rgb(180, 6, 248), rgb(230, 3, 181));*/ /*purple to pink */
-    padding: 10px;
+    background-image: url('../img/blue-backenhancedfilter.jpg');
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-repeat: no-repeat; /* Prevents repeating that might cause cuts */
+    background-position: center; /* Center the image */
+    padding: 10px 0;
+    color: #f5f5f5;
 }
 
-footer .content{
+footer .content {
     width: 800px;
     margin: 0 auto;
 }
 
 footer .content p {
-    color: #f5f5f5; /* light gray or use white (#ffffff) */
+    color: #f5f5f5; /* or white (#ffffff) */
 }
 
-footer a{
+footer a {
     color: white;
+    text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     color: white;
+    text-decoration: underline;
 }
