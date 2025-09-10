@@ -80,7 +80,7 @@ header img {
     width: 365px; /* larger width */
     height: auto; /* maintain aspect ratio */
     max-width: 90vw; /* responsive on small screens */
-    border: 20px solid rgb(148, 97, 3);
+    border: 20px solid rgb(rgb(250, 4, 4))
     border-radius: 50%;
 }
 
@@ -138,8 +138,9 @@ main {
 /* Footer styles */
 footer {
     width: 100%;
-    background: linear-gradient(to bottom,rgb(180, 6, 248), rgb(230, 3, 181)); /*purple to pink */
-    padding: 10px;
+    background-image: url('../img/blue-backenhanced.jpg');
+    /*background: linear-gradient(to bottom,rgb(180, 6, 248), rgb(230, 3, 181));*/ /*purple to pink */
+    padding: 5px;
 }
 
 footer .content{
