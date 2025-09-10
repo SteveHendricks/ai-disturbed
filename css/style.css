@@ -65,11 +65,12 @@ header {
     text-align: center;
     background-image:url('./img/blue-backenhanced.jpg');
     /*background: linear-gradient(to bottom,rgb(180, 6, 248), rgb(230, 3, 181));*/ /*purple to pink */
-    background-size: cover;
+   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 40px 0;
-    color: white;
+    padding: 60px 0 40px 0;
+    position: relative;
+    z-index: 1;
 }
     /*padding: 20px 0;*/
 
