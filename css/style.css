@@ -163,6 +163,10 @@ footer .content p {
     padding-left: 0.5em; /* Indent both lines slightly for balance */
 }
 
+footer .content p + p {
+    margin-top: 0;
+}
+
 footer a {
     color: #000000;
     text-decoration: none;
