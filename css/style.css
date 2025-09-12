@@ -154,6 +154,8 @@ footer .content {
     max-width: 90%;
     margin: 0 auto;
     text-align: left; /* Align text to the left */
+    font-weight: 500;
+    font-size: 11px;
 }
 
 footer .content p {
